@@ -5,7 +5,9 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  background-image: linear-gradient(rgba(109, 110, 7, 0.5), rgba(62, 67, 23, 0.5)),
+  /* background-image: linear-gradient(rgba(109, 110, 7, 0.5), rgba(62, 67, 23, 0.5)),
+    url("/img/header/img-background.png"); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/img/header/img-background.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,7 +46,7 @@
 }
 .buttonHeader:hover {
   cursor: pointer;
-  transform: scale(.9);
+  transform: scale(0.9);
   transition: transform 0.3s ease;
 }
 @media (max-width: 768px) {
@@ -55,16 +57,7 @@
   }
   .divBottomHeader {
     display: none;
-    /* justify-content: center;
-    align-items: center;
-    margin: 225px auto 0 auto; */
   }
-  /* .divBottomHeader h3, .buttonHeader {
-    display: none;
-  } */
-  /* .divBottomHeader p {
-    font-size: 19px;
-  } */
 }
 @media (max-width: 480px) {
   .header {

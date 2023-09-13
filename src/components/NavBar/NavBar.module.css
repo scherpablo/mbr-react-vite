@@ -49,14 +49,8 @@
   }
   .divContainer {
     flex-direction: column;
-    /* transform: scale(.9); */
   }
   .divLogo {
     margin-bottom: 20px;
-  }  
-}
-@media (max-width: 480px) {
-  .divContainer {
-    /* transform: scale(.8); */
   }  
 }
