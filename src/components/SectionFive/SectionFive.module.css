@@ -92,18 +92,22 @@
     margin-top: 50px;
   }
   .divSocialNet i {
-    color: var(--blackText);
+    /* color: var(--blackText); */
   }
 }
 @media (max-width: 480px) {
   .divSection {
-    padding: 50px;
+    padding: 20px;
+    padding-top: 60px;
   }
   .divText {
     font-size: 20px;
   }
+  .divText h2 {
+    text-align: center;
+  }
   .divText span {
-    font-size: 50px;
+    font-size: 40px;
   }
   .divSocialNet p {
     font-size: 18px;
