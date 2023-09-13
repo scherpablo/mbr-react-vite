@@ -47,6 +47,8 @@
 @media (max-width: 768px) {
   .conatinerSection {
     height: auto;
+    background-image: none;
+    background-color: #000;
   }
   .divSection {
     flex-direction: column;
