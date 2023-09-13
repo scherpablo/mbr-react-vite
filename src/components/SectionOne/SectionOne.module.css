@@ -55,8 +55,7 @@
   .conatinerSection {
     height: auto;
     background-image: none;
-    background-color: #e5e5e4;
-    background-color: var(--backgroundGrey);
+    background-color: #606060;
   }
   .divSection {
     flex-direction: column;

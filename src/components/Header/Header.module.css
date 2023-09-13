@@ -50,7 +50,7 @@
 @media (max-width: 768px) {
   .header {
     background-image: none;
-    max-height: 210px;
+    max-height: 230px;
     background-color: #000;
   }
   .divBottomHeader {
