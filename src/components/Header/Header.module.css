@@ -9,7 +9,7 @@
     url("img/header/img-background.png");
   background-size: cover; */
   background-image: linear-gradient(rgba(109, 110, 7, 0.5), rgba(62, 67, 23, 0.5)),
-    url("img/header/img-background.png");
+    url("/img/header/img-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
