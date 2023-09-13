@@ -62,7 +62,8 @@
 @media (max-width: 768px) {
   .conatinerSection {
     height: auto;
-    background-image: none;
+    /* background-image: none; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/sectionOne/img4-sectionOne.png");
     background-color: #606060;
   }
   .divSection {
