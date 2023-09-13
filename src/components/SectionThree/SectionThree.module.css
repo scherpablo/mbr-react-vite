@@ -96,4 +96,7 @@
   .divSection {
     padding-bottom: 25px;
   }
+  .divTextSection p {
+    padding: 20px 0;
+  }
 }
