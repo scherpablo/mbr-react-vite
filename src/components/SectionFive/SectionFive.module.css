@@ -75,7 +75,7 @@
     font-size: 30px;
   }
   .divText h2 {
-    color: var(--blackText);
+    /* color: var(--blackText); */
   }
   .h2Two, .h2Three {
     margin-left: 0;
