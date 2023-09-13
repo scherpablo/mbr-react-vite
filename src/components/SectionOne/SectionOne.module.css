@@ -48,7 +48,7 @@
   .conatinerSection {
     height: auto;
     background-image: none;
-    background-color: #000;
+    background-color: #e5e5e4;
   }
   .divSection {
     flex-direction: column;
@@ -57,11 +57,21 @@
   .divText {
     font-size: 30px;
   }
+  .divText h2 {
+    color: #000;
+  }
+  .divSocialNet p {
+    color: #606060;
+  }
   .divText span {
     font-size: 60px;
+    color: #606060;
   }
   .divSocialNet {
     margin-top: 50px;
+  }
+  .divSocialNet i {
+    color: #000;
   }
 }
 @media (max-width: 480px) {
