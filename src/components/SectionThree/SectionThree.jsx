@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "./SectionThree.module.css";
 
 const SectionThree = () => {
@@ -19,7 +19,7 @@ const SectionThree = () => {
               velit optio, minus illo facilis exercitationem, neque reiciendis
               officia adipisci. Eius modi saepe aperiam rem assumenda?
             </p>
-            <button>Exploralos</button>
+            <Link to="https://tienda.estilombr.com.ar/calzado/borcegos/" target="_blank" rel="noreferer"><button>Exploralos</button></Link>
           </div>
         </div>
       </section>

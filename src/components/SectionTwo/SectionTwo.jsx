@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "./SectionTwo.module.css";
 
 const SectionTwo = () => {
@@ -14,7 +14,7 @@ const SectionTwo = () => {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, corporis esse aliquam sed, ullam recusandae ipsam totam porro nam repellendus quae? Voluptas soluta aspernatur aut dolore expedita blanditiis eligendi architecto harum consequuntur quo obcaecati velit optio, minus illo facilis exercitationem, neque reiciendis officia adipisci. Eius modi saepe aperiam rem assumenda?
             </p>
-            <button>Conocelos</button>
+            <Link to="https://tienda.estilombr.com.ar/accesorios/" target="_blank" rel="noreferer"><button>Conocelos</button></Link>
           </div>
         </div>
       </section>

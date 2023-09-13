@@ -7,7 +7,7 @@ const SectionFive = () => {
       <section className={styles.conatinerSection}>
         <div className={styles.divSection}>
           <div className={styles.divText}>
-            <h2 className={styles.h2One}>Con <span>MBR</span> expresa</h2>
+            <h2 className={styles.h2One}>Con <span>MBR</span> expresá</h2>
             <h2 className={styles.h2Two}>tu estilo y confianza</h2>
             <h2 className={styles.h2Three}>
               en cualquier ocasión.
