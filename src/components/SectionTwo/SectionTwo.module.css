@@ -1,0 +1,99 @@
+.conatinerSection {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: red;
+}
+.divSection {
+  background-color: var(--backgroundGrey);
+  display: flex;
+  min-height: 560px;
+  overflow: hidden;
+}
+.divImgSection {
+  width: 50%;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("img/sectionTwo/img-sectionTwo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.divImgSection img {
+  max-height: 560px;
+  display: none;
+}
+.divTextSection {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divTextSection h2 {
+  font-size: 40px;
+  font-family: var(--fontExtra);
+  color: var(--whiteText);
+}
+.divTextSection p {
+  font-size: 18px;
+  font-family: var(--fontParagraph);
+  color: var(--whiteText);
+  padding: 0 100px;
+  text-align: justify;
+}
+.divTextSection button {
+  margin-top: 25px;
+  font-size: 20px;
+  font-family: var(--fontParagraph);
+  color: var(--greyText2);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 15px 100px;
+  text-align: justify;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--backgroundYellow);
+}
+.divTextSection button:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+  background-color: #ffffff00;
+  border: 2px solid var(--whiteText);
+  color: var(--whiteText);
+}
+
+@media (max-width: 768px) {
+  .divSection {
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("img/sectionTwo/img-sectionTwo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* .divImgSection img {
+    display: block;
+    margin-left: -200px;
+  } */
+  .divTextSection {
+    margin: 120px auto 0 auto;
+  }
+  .divTextSection h2 {
+    font-size: 30px;
+  }
+  .divTextSection p {
+    padding: 0;
+    font-size: 16px;
+  }
+  .divTextSection button {
+    font-size: 18px;
+    padding: 10px 80px;
+  }
+}
+@media (max-width: 480px) {
+    .divSection {
+      padding-bottom: 25px;
+    }
+}

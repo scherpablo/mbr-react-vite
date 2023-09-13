@@ -3,6 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --whiteText: #e5e5e4;
+  --blackText: #000;
+  --yellowText: #f4df53;
+  --greyText: #606060;
+  --greyText2: #2D2D31;
+
+  --fontParagraph: "Quicksand", sans-serif;
+  --fontExtra: "Bungee", cursive;
+  --fontTitles: "Rubik", sans-serif;
+
+  --backgroundBlack: #000;
+  --backgroundWhite: #e5e5e4;
+  --backgroundGrey: #2D2D31;
+  --backgroundYellow: #f4df53;
+}
 html {
   scroll-behavior: smooth;
   /* background-image: url("../img/html/mbr-header2.png"); */
@@ -11,8 +27,5 @@ html {
   min-width: 400px;
 }
 body {
-  font-family: "Bungee", cursive;
-  font-family: "Quicksand", sans-serif;
-  font-family: "Rubik", sans-serif;
   background-color: rgba(0, 0, 0, 0.5);
 }

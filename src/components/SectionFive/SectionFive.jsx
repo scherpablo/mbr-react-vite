@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
-import styles from "./SectionOne.module.css";
+import styles from "./SectionFive.module.css";
 
-const SectionOne = () => {
+const SectionFive = () => {
   return (
     <>
       <section className={styles.conatinerSection}>
         <div className={styles.divSection}>
           <div className={styles.divText}>
-            <h2>Siempre es un buen</h2>
-            <h2 className={styles.h2Two}>momento para usar</h2>
+            <h2 className={styles.h2One}>Con <span>MBR</span> expresa</h2>
+            <h2 className={styles.h2Two}>tu estilo y confianza</h2>
             <h2 className={styles.h2Three}>
-              tus borcegos <span>MBR.</span>
+              en cualquier ocasión.
             </h2>
           </div>
           <div className={styles.divSocialNet}>
@@ -38,4 +38,4 @@ const SectionOne = () => {
   );
 };
 
-export default SectionOne;
+export default SectionFive;

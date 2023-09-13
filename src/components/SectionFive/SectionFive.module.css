@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/img/sectionOne/img-sectionOne.png");
+    url("/img/sectionFive/img3-sectionFive.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -57,6 +57,7 @@
     background-image: none;
     background-color: #e5e5e4;
     background-color: var(--backgroundGrey);
+    background-color: #606060;
   }
   .divSection {
     flex-direction: column;

@@ -12,7 +12,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 40px auto
+  margin: 40px auto;
 }
 .divLogo img {
   width: 200px;
@@ -22,29 +22,30 @@
   justify-content: space-around;
   align-items: center;
   gap: 20px;
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--fontParagraph);
   font-weight: 500;
 }
-
 .linkMenu {
   text-decoration: none;
 }
 .pMenu {
   background-color: #E5E5E4;
-  color: #000;
+  color: var(--blackText);
   padding: 10px;
   transition: background-color 0.3s ease;
 }
 .pMenu:hover {
   background-color: #000;
-  color: #E5E5E4;
+  color: var(--whiteText);
 }
 
 
 @media (max-width: 768px) {
+  .navContainer {
+    position: relative;
+  }
   .divContainer {
     flex-direction: column;
-    padding-top: 20px;
     transform: scale(.9);
   }
   .divLogo {
@@ -54,6 +55,5 @@
 @media (max-width: 480px) {
   .divContainer {
     transform: scale(.8);
-    padding-top: 10px;
   }  
 }
