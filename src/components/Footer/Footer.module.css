@@ -1,6 +1,6 @@
 /* FOOTER */
 .footer {
-  background-color: #0f547b;
+  background-color: var(--backgroundBlack);
   padding: 50px 0 25px 0;
 }
 .containerFooter {
@@ -29,14 +29,14 @@
     gap: 10px;
 }
 .containerIcon i {
-  color: #c1da99;
+  color: var(--greyText);
 }
 .containerIcon i:hover {
-  color: #fff;
+  color: var(--whiteText);
 }
 .containerIcon a:hover,
 .containerIcon p:hover {
-  color: #000;
+  color: var(--greyText);
   font-weight: 500;
 }
 .linksFooter {
@@ -45,29 +45,31 @@
   gap: 10px;
 }
 .linksFooter a {
-  color: #fff;
+  color: var(--whiteText);
   text-decoration: none;
 }
 /* COPYRIGHT */
 .containerCopyright {
   padding: 30px 0 0 0 ;
+  font-family: var(--fontParagraph);
 }
 .containerCopyLinks {
   font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color:#fff;
+  color:var(--whiteText);
   font-weight: 500;
 }
 .containerCopyLinks span {
-  color: #c1da99;
+  color: var(--greyText);
 }
 .copyLink {
-  color:#fff;
+  color:var(--whiteText);
+  text-decoration: none;
 }
 .containerCopyright a:hover {
-  color: #000;
+  color: var(--greyText);
   font-weight: 700;
 }
 @media (max-width: 480px) {

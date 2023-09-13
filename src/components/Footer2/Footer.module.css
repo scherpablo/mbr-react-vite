@@ -1,0 +1,61 @@
+.containerFooter {
+  background-color: var(--backgroundBlack);
+  padding: 50px;
+}
+.divTopFooter {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid var(--whiteText);
+  flex-wrap: wrap;
+}
+.divTopFooter img {
+    padding: 25px;
+}
+.divMenuFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: var(--fontParagraph);
+  font-weight: 600;
+  padding: 25px;
+}
+.divMenuFooter a {
+  text-decoration: none;
+  color: var(--whiteText);
+}
+.divMenuFooter a:hover {
+  color: var(--yellowText);
+  cursor: pointer;
+}
+.linkMenu {
+  text-decoration: none;
+  color: var(--whiteText);
+}
+.linkMenu:hover {
+  color: var(--yellowText);
+}
+.divBottomFooter {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.divBottomFooter span {
+  font-family: var(--fontParagraph);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--whiteText);
+}
+.iconsFooter {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.iconsFooter i {
+  color: var(--whiteText);
+}
+.iconsFooter i:hover {
+  color: var(--yellowText);
+}

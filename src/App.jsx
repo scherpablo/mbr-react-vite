@@ -4,7 +4,7 @@ import SectionTwo from './components/SectionTwo/SectionTwo'
 import SectionThree from './components/SectionThree/SectionThree'
 // import SectionFour from './components/SectionFour/SectionFour'  
 import SectionFive from './components/SectionFive/SectionFive'
-// import Footer from './components/Footer/Footer'
+import Footer from './components/Footer2/Footer'
 
 const App = () => {
 
@@ -16,7 +16,7 @@ const App = () => {
       <SectionThree />
       {/* <SectionFour /> */}
       <SectionFive />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

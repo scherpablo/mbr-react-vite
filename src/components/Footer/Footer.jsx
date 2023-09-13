@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
@@ -9,71 +10,63 @@ const Footer = () => {
           {/* REDES */}
           <div className={styles.socialNetworks}>
             <div className={styles.containerIcon}>
-              <i
-                className="fa-brands fa-square-facebook fa-lg"
-                // style={{ color: "#c1da99" }}
-              ></i>
-              <a href="https://facebook.com/alazlogistica/">Facebook</a>
+              <i className="fa-brands fa-square-facebook fa-lg"></i>
+              <a
+                href="https://www.facebook.com/profile.php?id=100048890242534"
+                target="_blank"
+                rel="noreferer"
+              >
+                Facebook
+              </a>
             </div>
             <div className={styles.containerIcon}>
-              <i
-                className="fa-brands fa-instagram fa-lg"
-                // style={{ color: "#c1da99" }}
-              ></i>
-              <a href="https://instagram.com/alazlogistica/">Instagram</a>
+              <i className="fa-brands fa-instagram fa-lg"></i>
+              <a
+                href="https://www.instagram.com/estilo.mbr/"
+                target="_blank"
+                rel="noreferer"
+              >
+                Instagram
+              </a>
             </div>
             <div className={styles.containerIcon}>
-              <i
-                className="fa-brands fa-whatsapp fa-lg"
-                // style={{ color: "#c1da99" }}
-              ></i>
-              <a href="https://whatsapp.com/">WhatsApp</a>
+              <i className="fa-brands fa-whatsapp fa-lg"></i>
+              <a href="https://whatsapp.com/" target="_blank" rel="noreferer">
+                WhatsApp
+              </a>
             </div>
             <div className={styles.containerIcon}>
-              <i
-                className="fa-regular fa-envelope fa-lg"
-                // style={{ color: "#c1da99" }}
-              ></i>
-              <p>info@alazlogistica.com.ar</p>
+              <i className="fa-regular fa-envelope fa-lg"></i>
+              <p>contacto@estilombr.com.ar</p>
             </div>
           </div>
 
           {/* FOOTER BAR  */}
           <div className={styles.linksFooter}>
             <div className={styles.containerIcon}>
-              <i
-                className="fa-regular fa-user fa-lg"
-                // style={{ color: "#c1da99" }}
-              ></i>
-              <a href="#us">Nosotros</a>
+            <i className="fa-solid fa-house fa-lg"></i>
+              <a href="#home">Inicio</a>
             </div>
             <div className={styles.containerIcon}>
-              <i
-                className="fa-solid fa-truck-fast fa-lg"
-                // style={{ color: "#c1da99" }}
-              ></i>
-              <a href="#services">Servicios</a>
+              <i className="fa-solid fa-ring fa-lg"></i>
+              <a href="#services">Accesorios</a>
             </div>
             <div className={styles.containerIcon}>
-              <i
-                className="fa-solid fa-sitemap fa-lg"
-                // style={{ color: "#c1da99" }}
-              ></i>
-              <a href="#directDivision">Division Directa</a>
+            <i className="fa-brands fa-shopify fa-lg"></i>
+              <a href="#directDivision">Borcegos</a>
             </div>
             <div className={styles.containerIcon}>
-              <i
-                className="fa-solid fa-cart-shopping fa-lg"
-                // style={{ color: "#c1da99" }}
-              ></i>
-              <a href="#clients">Clientes</a>
+              <i className="fa-solid fa-cart-shopping fa-lg"></i>
+              <a href="#clients">Tienda Online</a>
             </div>
           </div>
         </div>
         <div className={styles.containerCopyright}>
           <div className={styles.containerCopyLinks}>
-            <p> 
-              <a href="#home" className={styles.copyLink}>Alaz Logistica{" "}</a>
+            <p>
+              <a href="#home" className={styles.copyLink}>
+                Estilo MBR{" "}
+              </a>
               <span>{String.fromCharCode(169)} 2023 | Desarrollado por</span>{" "}
               <Link
                 to="https://facilitadora.com.ar"
@@ -83,11 +76,6 @@ const Footer = () => {
                 Facilitadora
               </Link>
             </p>
-            {/* <a href="#home">Alaz Logística </a>
-            {String.fromCharCode(169)} 2023 | Desarrollado por
-            <Link to="https://facilitadora.com.ar" target="_blank" className={styles.facilitadora}>
-              <p className={styles.facilitadora}> Facilitadora.</p>
-            </Link> */}
           </div>
         </div>
       </footer>
