@@ -16,14 +16,12 @@
 
   --backgroundBlack: #000;
   --backgroundWhite: #e5e5e4;
-  --backgroundGrey: #2D2D31;
   --backgroundYellow: #f4df53;
+  --backgroundGrey2: #606060;
+  --backgroundGrey: #2D2D31;
 }
 html {
   scroll-behavior: smooth;
-  /* background-image: url("../img/html/mbr-header2.png"); */
-  /* background-size: cover; */
-  /* background-attachment: fixed; */
   min-width: 400px;
 }
 body {
