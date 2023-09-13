@@ -15,22 +15,24 @@ const SectionOne = () => {
           </div>
           <div className={styles.divSocialNet}>
             <p>Seguinos en las redes</p>
-            <Link
-              to="https://www.facebook.com/profile.php?id=100048890242534"
-              target="_blank"
-              rel="noreferer"
-              className={styles.linkMenu}
-            >
-              <i className="fa-brands fa-square-facebook fa-xl"></i>
-            </Link>
-            <Link
-              to="https://www.instagram.com/estilo.mbr/"
-              target="_blank"
-              rel="noreferer"
-              className={styles.linkMenu}
-            >
-              <i className="fa-brands fa-instagram fa-xl"></i>
-            </Link>
+            <div className={styles.divLink}>
+              <Link
+                to="https://www.facebook.com/profile.php?id=100048890242534"
+                target="_blank"
+                rel="noreferer"
+                className={styles.linkMenu}
+              >
+                <i className="fa-brands fa-square-facebook fa-2xl"></i>
+              </Link>
+              <Link
+                to="https://www.instagram.com/estilo.mbr/"
+                target="_blank"
+                rel="noreferer"
+                className={styles.linkMenu}
+              >
+                <i className="fa-brands fa-instagram fa-2xl"></i>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
