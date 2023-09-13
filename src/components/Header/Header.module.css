@@ -68,7 +68,8 @@
 }
 @media (max-width: 480px) {
   .header {
-    max-height: 200px;
+    /* max-height: 200px; */
+    max-height: 230px;
   }
   .divBottomHeader {
     margin-top: 210px;
