@@ -1,0 +1,78 @@
+/* FOOTER */
+.footer {
+  background-color: #0f547b;
+  padding: 50px 0 25px 0;
+}
+.containerFooter {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 480px) {
+  .containerFooter {
+    font-size: 14px;
+  }
+}
+.socialNetworks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+.socialNetworks a,
+.socialNetworks p {
+  color: #fff;
+  text-decoration: none;
+}
+.containerIcon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.containerIcon i {
+  color: #c1da99;
+}
+.containerIcon i:hover {
+  color: #fff;
+}
+.containerIcon a:hover,
+.containerIcon p:hover {
+  color: #000;
+  font-weight: 500;
+}
+.linksFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.linksFooter a {
+  color: #fff;
+  text-decoration: none;
+}
+/* COPYRIGHT */
+.containerCopyright {
+  padding: 30px 0 0 0 ;
+}
+.containerCopyLinks {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  font-weight: 500;
+}
+.containerCopyLinks span {
+  color: #c1da99;
+}
+.copyLink {
+  color:#fff;
+}
+.containerCopyright a:hover {
+  color: #000;
+  font-weight: 700;
+}
+@media (max-width: 480px) {
+  .containerCopyright p {
+    font-size: 14px;
+  }
+}
+

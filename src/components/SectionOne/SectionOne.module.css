@@ -1,0 +1,75 @@
+.conatinerSection {
+  width: 100%;
+  height: 720px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("img/sectionOne/img-sectionOne.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.divSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+}
+.divText {
+  font-size: 50px;
+}
+.divText h2 {
+  color: #f4df53;
+}
+.divText span {
+  color: #e5e5e4;
+  font-size: 90px;
+}
+.divSocialNet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-top: 450px;
+}
+.divSocialNet p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #e5e5e4;
+}
+.divSocialNet i {
+  padding: 10px;
+  color: #f4df53;
+}
+
+
+@media (max-width: 768px) {
+  .conatinerSection {
+    height: auto;
+  }
+  .divSection {
+    flex-direction: column;
+    padding: 80px;
+  }
+  .divText {
+    font-size: 30px;
+  }
+  .divText span {
+    font-size: 60px;
+  }
+  .divSocialNet {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .divSection {
+    padding: 50px;
+  }
+  .divText {
+    font-size: 20px;
+  }
+  .divText span {
+    font-size: 50px;
+  }
+}

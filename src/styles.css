@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  /* background-image: url("../img/html/mbr-header2.png"); */
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  min-width: 400px;
+}
+body {
+  font-family: "Bungee", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Rubik", sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+}
