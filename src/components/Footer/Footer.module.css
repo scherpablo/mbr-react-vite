@@ -1,80 +1,63 @@
-/* FOOTER */
-.footer {
-  background-color: var(--backgroundBlack);
-  padding: 50px 0 25px 0;
-}
 .containerFooter {
+  background-color: var(--backgroundBlack);
+  padding: 50px;
+}
+.divTopFooter {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  border-bottom: 1px solid var(--whiteText);
+  flex-wrap: wrap;
 }
-@media (max-width: 480px) {
-  .containerFooter {
-    font-size: 14px;
-  }
+.divTopFooter img {
+  padding: 25px;
+  width: 275px;
+  height: 135px;
 }
-.socialNetworks {
+.divMenuFooter {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
+  font-family: var(--fontParagraph);
+  font-weight: 600;
+  padding: 25px;
+}
+.divMenuFooter a {
+  text-decoration: none;
+  color: var(--whiteText);
+}
+.divMenuFooter a:hover {
+  color: var(--yellowText);
   cursor: pointer;
 }
-.socialNetworks a,
-.socialNetworks p {
-  color: #fff;
+.linkMenu {
   text-decoration: none;
-}
-.containerIcon {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.containerIcon i {
-  color: var(--greyText);
-}
-.containerIcon i:hover {
   color: var(--whiteText);
 }
-.containerIcon a:hover,
-.containerIcon p:hover {
-  color: var(--greyText);
-  font-weight: 500;
+.linkMenu:hover {
+  color: var(--yellowText);
 }
-.linksFooter {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.linksFooter a {
-  color: var(--whiteText);
-  text-decoration: none;
-}
-/* COPYRIGHT */
-.containerCopyright {
-  padding: 30px 0 0 0 ;
-  font-family: var(--fontParagraph);
-}
-.containerCopyLinks {
-  font-size: 20px;
+.divBottomFooter {
   display: flex;
   justify-content: center;
+  padding: 30px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.divBottomFooter span {
+  font-family: var(--fontParagraph);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--whiteText);
+}
+.iconsFooter {
+  display: flex;
   align-items: center;
-  color:var(--whiteText);
-  font-weight: 500;
+  gap: 20px;
+  font-size: 20px;
 }
-.containerCopyLinks span {
-  color: var(--greyText);
+.iconsFooter i {
+  color: var(--whiteText);
 }
-.copyLink {
-  color:var(--whiteText);
-  text-decoration: none;
+.iconsFooter i:hover {
+  color: var(--yellowText);
 }
-.containerCopyright a:hover {
-  color: var(--greyText);
-  font-weight: 700;
-}
-@media (max-width: 480px) {
-  .containerCopyright p {
-    font-size: 14px;
-  }
-}
-
