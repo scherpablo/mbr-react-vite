@@ -4,12 +4,12 @@ import NavBar from "../NavBar/NavBar";
 import styles from "./Header.module.css";
 
 const Header = () => {
-  // const handleExplorerClick = () => {
-  //   fbq("track", "Purchase", { //fbq is not defined.
-  //     value: 100, 
-  //     currency: "USD", 
-  //   });
-  // };
+  const handleExplorerClick = () => {
+    fbq("track", "Purchase", { //fbq is not defined.
+      value: 100, 
+      currency: "USD", 
+    });
+  };
 
   return (
     <>
