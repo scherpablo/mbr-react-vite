@@ -7,7 +7,7 @@ const SectionTwo = () => {
       <section className={styles.containerSection}>
         <div className={styles.divSection}>
           <div className={styles.divImgSection}>
-            <img src="img/sectionTwo/img3-sectionTwo.png" alt="" />
+            {/* <img src="/img/sectionTwo/img3-sectionTwo.png" alt="" /> */}
           </div>
           <div className={styles.divTextSection}>
             <h2>Accesorios</h2>

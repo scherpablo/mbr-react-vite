@@ -16,7 +16,7 @@
   width: 50%;
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("img/sectionTwo/img-sectionTwo.png");
+    url("/img/sectionTwo/img-sectionTwo.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
