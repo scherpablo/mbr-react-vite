@@ -1,4 +1,5 @@
-/* eslint-disable no-undef */
+// /* eslint-disable no-undef */
+import { trackCustom } from "react-facebook-pixel";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import NavBar from "../NavBar/NavBar";
@@ -6,7 +7,7 @@ import styles from "./Header.module.css";
 
 const Header = () => { 
   const handleExplorerClick = () => {
-    fbq("track", "Purchase", {
+    trackCustom("track", "Purchase", {
       value: 100,
       currency: "USD",
     });
