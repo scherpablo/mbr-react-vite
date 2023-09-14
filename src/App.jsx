@@ -13,6 +13,7 @@ const App = () => {
       <Helmet>
         <script>
           {`
+            <script>
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
             n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -24,6 +25,7 @@ const App = () => {
             fbq('init', '277120668505791');
             fbq('track', 'PageView');
             fbq('track', 'Purchase');
+            </script>
             <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=277120668505791&ev=PageView&noscript=1"
             /></noscript>
