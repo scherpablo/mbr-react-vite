@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import NavBar from "../NavBar/NavBar";
@@ -5,7 +6,7 @@ import styles from "./Header.module.css";
 
 const Header = () => {
   const handleExplorerClick = () => {
-    fbq("track", "Purchase", { //fbq is not defined.
+    fbq("track", "Purchase", { 
       value: 100, 
       currency: "USD", 
     });
