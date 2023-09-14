@@ -1,23 +1,20 @@
 import { track } from "react-facebook-pixel";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import NavBar from "../NavBar/NavBar";
 import styles from "./Header.module.css";
 
-const Header = () => { 
-  const handleExplorerClick = () => {
-    track("track", "Purchase", {
-      value: 100,
-      currency: "USD",
-    });
-  };
+const Header = () => {
+  track("track", "Purchase") 
+  // const handleExplorerClick = () => {
+  //   track("track", "Purchase", {
+  //     value: 100,
+  //     currency: "USD",
+  //   });
+  // };
 
   return (
     <>
       <header className={`${styles.section} ${styles.header}`} id="home">
-        <Helmet>
-          
-        </Helmet>
         <div className={styles.divHeader}>
           <NavBar />
         </div>
@@ -31,7 +28,8 @@ const Header = () => {
           >
             <button
               className={styles.buttonHeader}
-              onClick={handleExplorerClick}
+              // onClick={handleExplorerClick}
+              onClick={track()}
             >
               Explorar
             </button>
