@@ -46,7 +46,7 @@ const Header = () => {
           >
             <button
               className={styles.buttonHeader}
-              // onClick={handleExplorerClick}
+              onClick={handleExplorerClick}
             >
               Explorar
             </button>
