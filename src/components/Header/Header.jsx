@@ -28,6 +28,7 @@ const Header = () => {
             'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '277120668505791');
             fbq('track', 'PageView');
+            fbq('track', 'Purchase');
             <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=277120668505791&ev=PageView&noscript=1"
             /></noscript>
