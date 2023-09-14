@@ -1,21 +1,20 @@
-/* eslint-disable no-undef */
 import { Link } from "react-router-dom";
-// import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet";
 import NavBar from "../NavBar/NavBar";
 import styles from "./Header.module.css";
 
 const Header = () => {
   const handleExplorerClick = () => {
-    fbq("track", "Purchase", { 
-      value: 100, 
-      currency: "USD", 
+    fbq("track", "Purchase", {
+      value: 100,
+      currency: "USD",
     });
   };
 
   return (
     <>
       <header className={`${styles.section} ${styles.header}`} id="home">
-        {/* <Helmet>
+        <Helmet>
           <script>
             {`
             <script>
@@ -31,12 +30,20 @@ const Header = () => {
             fbq('track', 'PageView');
             fbq('track', 'Purchase');
             </script>
+            <script>
+              function trackCompra() {
+                fbq('track', 'Compra', {
+                    value: 100.00, // El valor de la compra
+                    currency: 'USD' // La moneda de la compra
+                });
+              }
+            </script>
             <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=277120668505791&ev=PageView&noscript=1"
             /></noscript>
         `}
           </script>
-        </Helmet> */}
+        </Helmet>
         <div className={styles.divHeader}>
           <NavBar />
         </div>

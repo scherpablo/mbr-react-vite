@@ -1,4 +1,4 @@
-// import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet";
 import Header from "./components/Header/Header";
 import SectionOne from "./components/SectionOne/SectionOne";
 import SectionTwo from "./components/SectionTwo/SectionTwo";
@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <>
-      {/* <Helmet>
+      <Helmet>
         <script>
           {`
             <script>
@@ -26,12 +26,20 @@ const App = () => {
             fbq('track', 'PageView');
             fbq('track', 'Purchase');
             </script>
+            <script>
+              function trackCompra() {
+                fbq('track', 'Compra', {
+                    value: 100.00, // El valor de la compra
+                    currency: 'USD' // La moneda de la compra
+                });
+              }
+            </script>
             <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=277120668505791&ev=PageView&noscript=1"
             /></noscript>
         `}
         </script>
-      </Helmet> */}
+      </Helmet>
       <Header />
       <SectionOne />
       <SectionTwo />
