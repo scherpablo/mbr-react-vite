@@ -31,8 +31,8 @@ const Header = () => {
             fbq('track', 'Purchase');
             </script>
             <script>
-              function trackCompra() {
-                fbq('track', 'Compra', {
+              function handleExplorerClick() {
+                fbq('track', 'Purchase', {
                     value: 100.00, // El valor de la compra
                     currency: 'USD' // La moneda de la compra
                 });
