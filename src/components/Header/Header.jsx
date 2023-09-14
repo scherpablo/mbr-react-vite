@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import NavBar from "../NavBar/NavBar";
 import styles from "./Header.module.css";
 
@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <>
       <header className={`${styles.section} ${styles.header}`} id="home">
-        <Helmet>
+        {/* <Helmet>
           <script>
             {`
             <script>
@@ -36,7 +36,7 @@ const Header = () => {
             /></noscript>
         `}
           </script>
-        </Helmet>
+        </Helmet> */}
         <div className={styles.divHeader}>
           <NavBar />
         </div>

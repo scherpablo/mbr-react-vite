@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import Header from "./components/Header/Header";
 import SectionOne from "./components/SectionOne/SectionOne";
 import SectionTwo from "./components/SectionTwo/SectionTwo";
@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <script>
           {`
             <script>
@@ -31,7 +31,7 @@ const App = () => {
             /></noscript>
         `}
         </script>
-      </Helmet>
+      </Helmet> */}
       <Header />
       <SectionOne />
       <SectionTwo />
