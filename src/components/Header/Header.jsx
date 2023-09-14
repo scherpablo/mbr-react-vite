@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import NavBar from "../NavBar/NavBar";
 import styles from "./Header.module.css";
 
-const Header = () => {
+const Header = () => { 
   const handleExplorerClick = () => {
     fbq("track", "Purchase", {
       value: 100,
@@ -15,7 +15,7 @@ const Header = () => {
     <>
       <header className={`${styles.section} ${styles.header}`} id="home">
         <Helmet>
-          <script>
+          {/* <script>
             {`
             <script>
             !function(f,b,e,v,n,t,s)
@@ -26,23 +26,12 @@ const Header = () => {
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '277120668505791');
-            fbq('track', 'PageView');
-            fbq('track', 'Purchase');
-            </script>
-            <script>
-              function handleExplorerClick() {
-                fbq('track', 'Purchase', {
-                    value: 100.00, // El valor de la compra
-                    currency: 'USD' // La moneda de la compra
-                });
-              }
             </script>
             <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=277120668505791&ev=PageView&noscript=1"
             /></noscript>
         `}
-          </script>
+          </script> */}
         </Helmet>
         <div className={styles.divHeader}>
           <NavBar />
