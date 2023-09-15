@@ -7,10 +7,11 @@ const NavBar = () => {
   // Estado para controlar el cambio de fondo
   const [isScrolled, setIsScrolled] = useState(false);
 
-  ReactPixel.track("track", "Purchase", {
+  const eventData = {
     value: 100,
     currency: "USD",
-  });
+  };
+  ReactPixel.track("Purchase", eventData);
 
   // Función para manejar el scroll
   const handleScroll = () => {
