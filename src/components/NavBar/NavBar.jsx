@@ -1,10 +1,16 @@
 import { useState, useEffect } from "react";
+import ReactPixel from "react-facebook-pixel";
 import { Link } from "react-router-dom";
 import styles from "./NavBar.module.css";
 
 const NavBar = () => {
   // Estado para controlar el cambio de fondo
   const [isScrolled, setIsScrolled] = useState(false);
+
+  ReactPixel.track("track", "Purchase", {
+    value: 100,
+    currency: "USD",
+  });
 
   // Función para manejar el scroll
   const handleScroll = () => {
@@ -48,6 +54,7 @@ const NavBar = () => {
               target="_blank"
               rel="noreferrer"
               className={styles.linkMenu}
+              onClick={ReactPixel.track()}
             >
               <p className={styles.pMenu}>Tienda</p>
             </Link>
@@ -56,6 +63,7 @@ const NavBar = () => {
               target="_blank"
               rel="noreferrer"
               className={styles.linkMenu}
+              onClick={ReactPixel.track()}
             >
               <p className={styles.pMenu}>Facebook</p>
             </Link>
@@ -64,6 +72,7 @@ const NavBar = () => {
               target="_blank"
               rel="noreferrer"
               className={styles.linkMenu}
+              onClick={ReactPixel.track()}
             >
               <p className={styles.pMenu}>Instagram</p>
             </Link>
