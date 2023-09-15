@@ -1,4 +1,4 @@
-import MetaPixel from "./components/MetaPixel/MetaPixel";
+// import MetaPixel from "./components/MetaPixel/MetaPixel";
 import Header from "./components/Header/Header";
 import SectionOne from "./components/SectionOne/SectionOne";
 import SectionTwo from "./components/SectionTwo/SectionTwo";
@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <>
-      <MetaPixel />
+      {/* <MetaPixel /> */}
       <Header />
       <SectionOne />
       <SectionTwo />
