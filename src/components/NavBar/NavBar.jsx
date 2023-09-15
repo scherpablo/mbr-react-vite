@@ -59,7 +59,7 @@ const NavBar = () => {
             >
               {/* <p className={styles.pMenu}>Tienda</p> */}
               <button
-              className={styles.buttonHeader}
+              className={styles.buttonNavBar}
               onClick={ReactPixel.track()}
             >
               Tienda
@@ -72,7 +72,13 @@ const NavBar = () => {
               className={styles.linkMenu}
               onClick={ReactPixel.track()}
             >
-              <p className={styles.pMenu}>Facebook</p>
+              {/* <p className={styles.pMenu}>Facebook</p> */}
+              <button
+              className={styles.buttonNavBar}
+              onClick={ReactPixel.track()}
+            >
+              Facebook
+            </button>
             </Link>
             <Link
               to="https://www.instagram.com/estilo.mbr/"
@@ -81,7 +87,13 @@ const NavBar = () => {
               className={styles.linkMenu}
               onClick={ReactPixel.track()}
             >
-              <p className={styles.pMenu}>Instagram</p>
+              {/* <p className={styles.pMenu}>Instagram</p> */}
+              <button
+              className={styles.buttonNavBar}
+              onClick={ReactPixel.track()}
+            >
+              Instagram
+            </button>
             </Link>
           </div>
         </div>

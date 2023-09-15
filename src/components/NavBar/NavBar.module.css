@@ -41,6 +41,21 @@
   border: 2px solid var(--whiteText);
   background-color: #00000000;
 }
+.buttonNavBar {
+  font-family: var(--fontParagraph);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--blackText);
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 2px solid var(--whiteText);
+  background-color: var(--whiteText);
+}
+.buttonNavBar:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
 
 
 @media (max-width: 768px) {
