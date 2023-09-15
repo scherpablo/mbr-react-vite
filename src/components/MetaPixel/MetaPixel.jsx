@@ -7,6 +7,10 @@ const MetaPixel = () => {
     ReactPixel.fbq("track", "PageView")
     ReactPixel.fbq("track", "Purchase")
 
+    const pageView = () => {
+        window.fbq("track", "PageView")
+    }
+
   return (
     <>
     <script>
@@ -20,7 +24,7 @@ const MetaPixel = () => {
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', ${pixelId});
-            fbq('track', 'PageView');
+            fbq('track', ${pageView});
             fbq('track', 'Purchase')
         `}
     </script>
