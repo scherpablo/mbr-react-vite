@@ -4,14 +4,18 @@ import styles from "./Buttons.module.css";
 
 const Buttons = () => {
   
-  // ReactPixel.trackSingleCustom("Purchase", "Tienda");
+  const store = () => {
+    ReactPixel.trackCustom("NavButtonStore", "Tienda", {
+      value: "Tienda",
+    })
+  };
   const facebook = () => {
-    ReactPixel.trackCustom("trackCustomFace", "Facebook", {
+    ReactPixel.trackCustom("NavButtonFacebook", "Facebook", {
       value: "Facebook",
     })
   };
   const instagram = () => {
-    ReactPixel.trackCustom("trackCustom", "Instagram", {
+    ReactPixel.trackCustom("NavButtonInstagram", "Instagram", {
       value: "Instagram",
     });
   }
@@ -28,7 +32,7 @@ const Buttons = () => {
           >
             <button
               className={styles.buttonNavBar}
-              // onClick={facebook}
+              onClick={store}
             >
               Tienda
             </button>
