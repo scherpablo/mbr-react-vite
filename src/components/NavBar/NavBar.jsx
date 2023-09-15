@@ -40,7 +40,7 @@ const NavBar = () => {
       >
         <div className={styles.divContainer}>
           <div className={styles.divLogo}>
-            <img src="img/header/logo-whiteLight.png" alt="" />
+            <img src="img/header/logo-new.png" alt="" />
           </div>
           <Buttons />
         </div>

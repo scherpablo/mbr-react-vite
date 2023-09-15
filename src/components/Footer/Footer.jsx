@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <footer className={styles.containerFooter}>
         <div className={styles.divTopFooter}>
-          <img src="img/header/logo-whiteLight.png" alt="" />
+          <img src="img/header/logo-new.png" alt="" />
           <div className={styles.divMenuFooter}>
             <a href="#home">
               <p>Inicio</p>
