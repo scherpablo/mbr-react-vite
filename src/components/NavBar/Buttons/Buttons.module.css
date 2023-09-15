@@ -1,0 +1,26 @@
+.divMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-family: var(--fontParagraph);
+    font-weight: 500;
+  }
+  .linkMenu {
+    text-decoration: none;
+  }
+.buttonNavBar {
+  font-family: var(--fontParagraph);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--blackText);
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 2px solid var(--whiteText);
+  background-color: var(--whiteText);
+}
+.buttonNavBar:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}

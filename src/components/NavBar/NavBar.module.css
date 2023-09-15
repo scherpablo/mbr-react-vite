@@ -17,7 +17,7 @@
 .divLogo img {
   width: 200px;
 }
-.divMenu {
+/* .divMenu {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -27,7 +27,7 @@
 }
 .linkMenu {
   text-decoration: none;
-}
+} */
 /* .pMenu {
   background-color: #E5E5E4;
   color: var(--blackText);
@@ -41,7 +41,7 @@
   border: 2px solid var(--whiteText);
   background-color: #00000000;
 } */
-.buttonNavBar {
+/* .buttonNavBar {
   font-family: var(--fontParagraph);
   font-weight: 500;
   font-size: 14px;
@@ -55,7 +55,7 @@
   cursor: pointer;
   transform: scale(0.9);
   transition: transform 0.3s ease;
-}
+} */
 
 
 @media (max-width: 768px) {

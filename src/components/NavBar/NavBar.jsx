@@ -1,17 +1,10 @@
 import { useState, useEffect } from "react";
-import ReactPixel from "react-facebook-pixel";
-import { Link } from "react-router-dom";
+import Buttons from "./Buttons/Buttons";
 import styles from "./NavBar.module.css";
 
 const NavBar = () => {
   // Estado para controlar el cambio de fondo
   const [isScrolled, setIsScrolled] = useState(false);
-
-  const eventData = {
-    value: 100,
-    currency: "USD",
-  };
-  ReactPixel.track("Purchase", eventData);
 
   // Función para manejar el scroll
   const handleScroll = () => {
@@ -49,50 +42,7 @@ const NavBar = () => {
           <div className={styles.divLogo}>
             <img src="img/header/logo-whiteLight.png" alt="" />
           </div>
-          <div className={styles.divMenu}>
-            <Link
-              to="https://tienda.estilombr.com.ar/"
-              target="_blank"
-              rel="noreferrer"
-              className={styles.linkMenu}
-            >
-              {/* <p className={styles.pMenu}>Tienda</p> */}
-              <button
-              className={styles.buttonNavBar}
-              onClick={ReactPixel.track()}
-            >
-              Tienda
-            </button>
-            </Link>
-            <Link
-              to="https://www.facebook.com/profile.php?id=100048890242534"
-              target="_blank"
-              rel="noreferrer"
-              className={styles.linkMenu}
-            >
-              {/* <p className={styles.pMenu}>Facebook</p> */}
-              <button
-              className={styles.buttonNavBar}
-              onClick={ReactPixel.track()}
-            >
-              Facebook
-            </button>
-            </Link>
-            <Link
-              to="https://www.instagram.com/estilo.mbr/"
-              target="_blank"
-              rel="noreferrer"
-              className={styles.linkMenu}
-            >
-              {/* <p className={styles.pMenu}>Instagram</p> */}
-              <button
-              className={styles.buttonNavBar}
-              onClick={ReactPixel.track()}
-            >
-              Instagram
-            </button>
-            </Link>
-          </div>
+          <Buttons />
         </div>
       </nav>
     </>
