@@ -6,7 +6,9 @@ const Buttons = () => {
   
   ReactPixel.trackSingleCustom("Purchase", "Tienda");
   const facebook = () => {
-    ReactPixel.trackCustom("trackCustom", "Facebook")
+    ReactPixel.trackCustom("trackCustomFace", "Facebook", {
+      value: "Facebook",
+    })
   };
   const instagram = () => {
     ReactPixel.trackCustom("trackCustom", "Instagram", {
