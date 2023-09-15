@@ -1,8 +1,10 @@
 import ReactPixel from "react-facebook-pixel";
 
-const pixelId = "277120668505791"
+
 
 const MetaPixel = () => {
+    const pixelId = "277120668505791"
+
     ReactPixel.fbq("init", pixelId)
     ReactPixel.fbq("track", "PageView")
     ReactPixel.fbq("track", "Purchase")
