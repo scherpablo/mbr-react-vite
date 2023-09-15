@@ -55,7 +55,6 @@ const NavBar = () => {
               target="_blank"
               rel="noreferrer"
               className={styles.linkMenu}
-              onClick={ReactPixel.track()}
             >
               {/* <p className={styles.pMenu}>Tienda</p> */}
               <button
@@ -70,7 +69,6 @@ const NavBar = () => {
               target="_blank"
               rel="noreferrer"
               className={styles.linkMenu}
-              onClick={ReactPixel.track()}
             >
               {/* <p className={styles.pMenu}>Facebook</p> */}
               <button
@@ -85,7 +83,6 @@ const NavBar = () => {
               target="_blank"
               rel="noreferrer"
               className={styles.linkMenu}
-              onClick={ReactPixel.track()}
             >
               {/* <p className={styles.pMenu}>Instagram</p> */}
               <button

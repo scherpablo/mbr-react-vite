@@ -28,7 +28,7 @@
 .linkMenu {
   text-decoration: none;
 }
-.pMenu {
+/* .pMenu {
   background-color: #E5E5E4;
   color: var(--blackText);
   padding: 10px;
@@ -40,7 +40,7 @@
   color: var(--whiteText);
   border: 2px solid var(--whiteText);
   background-color: #00000000;
-}
+} */
 .buttonNavBar {
   font-family: var(--fontParagraph);
   font-weight: 500;
