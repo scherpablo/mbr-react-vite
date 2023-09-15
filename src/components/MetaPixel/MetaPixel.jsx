@@ -21,7 +21,7 @@ const MetaPixel = () => {
             'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', ${pixelId});
             fbq('track', 'PageView');
-            ${ReactPixel.fbq("track", "Purchase")}
+            fbq('track', 'Purchase')
         `}
     </script>
     </>
