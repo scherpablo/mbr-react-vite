@@ -1,3 +1,4 @@
+import Helmet from "react-helmet";
 import MetaPixel from "./components/MetaPixel/MetaPixel";
 import Header from "./components/Header/Header";
 import SectionOne from "./components/SectionOne/SectionOne";
@@ -11,7 +12,7 @@ const App = () => {
 
   return (
     <>
-      <MetaPixel />
+      <Helmet><MetaPixel /></Helmet>
       <Header />
       <SectionOne />
       <SectionTwo />
