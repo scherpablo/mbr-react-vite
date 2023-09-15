@@ -4,10 +4,7 @@ import NavBar from "../NavBar/NavBar";
 import styles from "./Header.module.css";
 
 const Header = () => {
-  // ReactPixel.track("track", "Purchase", {
-  //   value: 100,
-  //   currency: "USD",
-  // });
+  
   ReactPixel.trackSingle("Purchase", "Explorar")
 
   return (
