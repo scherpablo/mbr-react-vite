@@ -5,7 +5,7 @@ import styles from "./Buttons.module.css";
 const Buttons = () => {
   
   ReactPixel.trackSingleCustom("Purchase", "Tienda");
-  ReactPixel.trackSingleCustom("Purchase", "facebook");
+  ReactPixel.trackSingleCustom("Purchase", "Facebook");
   ReactPixel.trackSingleCustom("Purchase", "Instagram");
 
   return (
@@ -33,7 +33,7 @@ const Buttons = () => {
           >
             <button
               className={styles.buttonNavBar}
-              onClick={ReactPixel.trackSingleCustom("Purchase", "facebook")}
+              onClick={ReactPixel.trackSingleCustom("Purchase", "Facebook")}
             >
               Facebook
             </button>
