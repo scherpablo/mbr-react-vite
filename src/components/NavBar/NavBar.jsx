@@ -57,7 +57,13 @@ const NavBar = () => {
               className={styles.linkMenu}
               onClick={ReactPixel.track()}
             >
-              <p className={styles.pMenu}>Tienda</p>
+              {/* <p className={styles.pMenu}>Tienda</p> */}
+              <button
+              className={styles.buttonHeader}
+              onClick={ReactPixel.track()}
+            >
+              Tienda
+            </button>
             </Link>
             <Link
               to="https://www.facebook.com/profile.php?id=100048890242534"
