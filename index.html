@@ -12,8 +12,9 @@
       rel="stylesheet"
     />
     <!-- Meta Pixel Code -->
-    <script>
+    <script type="module">
       const fbPixelId = import.meta.env.VITE_PIXEL_ID
+      console.log(fbPixelId)
       !(function (f, b, e, v, n, t, s) {
         if (f.fbq) return;
         n = f.fbq = function () {
@@ -44,10 +45,6 @@
       fbq("trackCustom", "Instagram");
       fbq("trackCustom", "Tienda");
     </script>
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=277120668505791&ev=PageView&noscript=1"
-    /></noscript>
     <!-- End Meta Pixel Code -->
     <script
       src="https://kit.fontawesome.com/3a84dfeae6.js"
