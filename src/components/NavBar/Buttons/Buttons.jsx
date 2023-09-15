@@ -6,7 +6,11 @@ const Buttons = () => {
   
   ReactPixel.trackSingleCustom("Purchase", "Tienda");
   ReactPixel.trackSingleCustom("Purchase", "Facebook");
-  ReactPixel.trackSingleCustom("trackSIngleCustom", "Instagram", "Link" );
+  const instagram = () => {
+    ReactPixel.trackCustom("trackCustom", "Instagram", {
+      value: "Instagram",
+    });
+  }
 
   return (
     <>
@@ -33,7 +37,7 @@ const Buttons = () => {
           >
             <button
               className={styles.buttonNavBar}
-              onClick={ReactPixel.trackSingleCustom("Purchase", "Facebook")}
+              onClick={instagram}
             >
               Facebook
             </button>
@@ -46,7 +50,7 @@ const Buttons = () => {
           >
             <button
               className={styles.buttonNavBar}
-              onClick={ReactPixel.trackSingleCustom("Purchase", "Instagram")}
+              onClick={ReactPixel.trackCustom("trackCustom", "Instagram")}
             >
               Instagram
             </button>
