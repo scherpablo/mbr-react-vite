@@ -5,8 +5,6 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  /* background-image: linear-gradient(rgba(109, 110, 7, 0.5), rgba(62, 67, 23, 0.5)),
-    url("/img/header/img-background.png"); */
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/img/header/img-background.png");
   background-size: cover;
@@ -19,7 +17,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  margin-left: 250px;
+  margin-left: 245px;
   margin-top: 520px;
 }
 .divBottomHeader h3 {
@@ -61,7 +59,6 @@
 }
 @media (max-width: 480px) {
   .header {
-    /* max-height: 200px; */
     max-height: 230px;
   }
   .divBottomHeader {

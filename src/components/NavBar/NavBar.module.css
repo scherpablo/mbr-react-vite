@@ -17,46 +17,6 @@
 .divLogo img {
   width: 200px;
 }
-/* .divMenu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 20px;
-  font-family: var(--fontParagraph);
-  font-weight: 500;
-}
-.linkMenu {
-  text-decoration: none;
-} */
-/* .pMenu {
-  background-color: #E5E5E4;
-  color: var(--blackText);
-  padding: 10px;
-  transition: background-color 0.3s ease;
-  border-radius: 5px;
-}
-.pMenu:hover {
-  background-color: #000;
-  color: var(--whiteText);
-  border: 2px solid var(--whiteText);
-  background-color: #00000000;
-} */
-/* .buttonNavBar {
-  font-family: var(--fontParagraph);
-  font-weight: 500;
-  font-size: 14px;
-  color: var(--blackText);
-  padding: 8px 20px;
-  border-radius: 5px;
-  border: 2px solid var(--whiteText);
-  background-color: var(--whiteText);
-}
-.buttonNavBar:hover {
-  cursor: pointer;
-  transform: scale(0.9);
-  transition: transform 0.3s ease;
-} */
-
 
 @media (max-width: 768px) {
   .navContainer {

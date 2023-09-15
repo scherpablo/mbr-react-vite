@@ -1,11 +1,9 @@
 import ReactPixel from "react-facebook-pixel";
-// import { track } from "react-facebook-pixel";
 import { Link } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
 import styles from "./Header.module.css";
 
 const Header = () => {
-  
   ReactPixel.track("track", "Purchase", {
     value: 100,
     currency: "USD",
@@ -27,7 +25,6 @@ const Header = () => {
           >
             <button
               className={styles.buttonHeader}
-              // onClick={handleExplorerClick}
               onClick={ReactPixel.track()}
             >
               Explorar
