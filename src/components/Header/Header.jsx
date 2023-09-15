@@ -4,10 +4,11 @@ import NavBar from "../NavBar/NavBar";
 import styles from "./Header.module.css";
 
 const Header = () => {
-  ReactPixel.track("track", "Purchase", {
-    value: 100,
-    currency: "USD",
-  });
+  // ReactPixel.track("track", "Purchase", {
+  //   value: 100,
+  //   currency: "USD",
+  // });
+  ReactPixel.trackSingle("Purchase", "Explorar")
 
   return (
     <>
@@ -25,7 +26,7 @@ const Header = () => {
           >
             <button
               className={styles.buttonHeader}
-              onClick={ReactPixel.track()}
+              onClick={ReactPixel.trackSingle("Purchase", "Explorar")}
               name="Explorar"
               type= "button"
               value="Explorar"
