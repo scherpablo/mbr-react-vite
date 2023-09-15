@@ -3,11 +3,21 @@ import { Link } from "react-router-dom";
 import styles from "./Buttons.module.css";
 
 const Buttons = () => {
-  const eventData = {
+  const eventStore = {
     value: 100,
     currency: "USD",
   };
-  ReactPixel.track("Purchase", eventData);
+  ReactPixel.trackSingleCustom("Purchase", eventStore);
+
+  // const eventFacebook = {
+  //   value: "facebook",
+  // };
+  // ReactPixel.trackSingleCustom("Purchase", eventFacebook);
+
+  // const eventInstagram = {
+  //   value: "Instagram",
+  // };
+  // ReactPixel.trackSingleCustom("Purchase", eventInstagram);
 
   return (
     <>
@@ -21,7 +31,7 @@ const Buttons = () => {
           >
             <button
               className={styles.buttonNavBar}
-              onClick={ReactPixel.track()}
+              onClick={ReactPixel.trackSingleCustom()}
             >
               Tienda
             </button>
@@ -34,7 +44,7 @@ const Buttons = () => {
           >
             <button
               className={styles.buttonNavBar}
-              onClick={ReactPixel.track()}
+              onClick={ReactPixel.trackSingleCustom()}
             >
               Facebook
             </button>
@@ -47,7 +57,7 @@ const Buttons = () => {
           >
             <button
               className={styles.buttonNavBar}
-              onClick={ReactPixel.track()}
+              onClick={ReactPixel.trackSingleCustom()}
             >
               Instagram
             </button>
