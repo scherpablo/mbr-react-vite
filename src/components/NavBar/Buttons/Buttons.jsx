@@ -5,7 +5,9 @@ import styles from "./Buttons.module.css";
 const Buttons = () => {
   
   ReactPixel.trackSingleCustom("Purchase", "Tienda");
-  ReactPixel.trackSingleCustom("Purchase", "Facebook");
+  const facebook = () => {
+    ReactPixel.trackCustom("trackCustom", "Facebook")
+  };
   const instagram = () => {
     ReactPixel.trackCustom("trackCustom", "Instagram", {
       value: "Instagram",
@@ -24,7 +26,7 @@ const Buttons = () => {
           >
             <button
               className={styles.buttonNavBar}
-              onClick={ReactPixel.trackSingleCustom("Purchase", "Tienda")}
+              onClick={facebook}
             >
               Tienda
             </button>
@@ -50,7 +52,7 @@ const Buttons = () => {
           >
             <button
               className={styles.buttonNavBar}
-              onClick={ReactPixel.trackCustom("trackCustom", "Instagram")}
+              onClick={instagram}
             >
               Instagram
             </button>
