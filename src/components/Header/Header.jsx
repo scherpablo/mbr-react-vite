@@ -26,6 +26,9 @@ const Header = () => {
             <button
               className={styles.buttonHeader}
               onClick={ReactPixel.track()}
+              name="Explorar"
+              type= "button"
+              value="Explorar"
             >
               Explorar
             </button>
