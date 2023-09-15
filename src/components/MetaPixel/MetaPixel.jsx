@@ -1,7 +1,5 @@
 import ReactPixel from "react-facebook-pixel";
 
-
-
 const MetaPixel = () => {
     const pixelId = "277120668505791"
 
