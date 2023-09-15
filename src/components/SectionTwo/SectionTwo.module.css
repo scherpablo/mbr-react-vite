@@ -4,7 +4,6 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  background-color: red;
 }
 .divSection {
   background-color: var(--backgroundGrey);
@@ -34,7 +33,10 @@
 .divTextSection h2 {
   font-size: 40px;
   font-family: var(--fontExtra);
+  font-family: var(--fontSections);
   color: var(--whiteText);
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .divTextSection p {
   font-size: 18px;

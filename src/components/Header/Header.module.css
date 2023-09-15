@@ -22,6 +22,8 @@
 }
 .divBottomHeader h3 {
   font-family: var(--fontExtra);
+  font-family: var(--fontSections);
+  text-transform: uppercase;
   font-size: 26px;
   color: var(--whiteText);
 }

@@ -18,6 +18,7 @@
 .divText {
   font-size: 50px;
   font-family: var(--fontTitles);
+  font-family: var(--fontSections);
 }
 .divText h2 {
   color: var(--yellowText);
