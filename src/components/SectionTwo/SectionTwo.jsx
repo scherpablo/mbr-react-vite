@@ -12,9 +12,31 @@ const SectionTwo = () => {
           <div className={styles.divTextSection}>
             <h2>Accesorios</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, corporis esse aliquam sed, ullam recusandae ipsam totam porro nam repellendus quae? Voluptas soluta aspernatur aut dolore expedita blanditiis eligendi architecto harum consequuntur quo obcaecati velit optio, minus illo facilis exercitationem, neque reiciendis officia adipisci. Eius modi saepe aperiam rem assumenda?
+              🔘Descubre la Elegancia y la Durabilidad: En Estilo MBR, nuestros
+              borcegos son una combinación perfecta de estilo y resistencia.
+              Diseñados para resistir cualquier terreno mientras mantienen tu
+              estilo intacto.<br></br> 
+              🔘Pisa con Confianza: Nuestra colección de borcegos
+              te brinda la confianza que necesitas para enfrentar cualquier
+              desafío. Ya sea en la ciudad o en la naturaleza, nuestros borcegos
+              te llevarán allí con comodidad y estilo.<br></br>  
+              🔘Eleva tu Estilo: ¿Buscas
+              un toque de sofisticación en tu vestuario diario? Nuestros
+              borcegos no solo son funcionales, sino que también añaden un toque
+              de elegancia a tu estilo único. Descubre cómo puedes destacar con
+              Estilo MBR.<br></br>  
+              🔘Hechos para Durar: No comprometemos la calidad. Cada
+              par de borcegos Estilo MBR está construido con los mejores
+              materiales para asegurar que te acompañen durante años. Invierte
+              en calidad, invierte en Estilo MBR.
             </p>
-            <Link to="https://tienda.estilombr.com.ar/accesorios/" target="_blank" rel="noreferer"><button>Conocelos</button></Link>
+            <Link
+              to="https://tienda.estilombr.com.ar/accesorios/"
+              target="_blank"
+              rel="noreferer"
+            >
+              <button>Conocelos</button>
+            </Link>
           </div>
         </div>
       </section>
