@@ -1,7 +1,19 @@
+import ReactPixel from "react-facebook-pixel";
 import { Link } from "react-router-dom";
 import styles from "./SectionOne.module.css";
 
 const SectionOne = () => {
+  const iconFacebook = () => {
+    ReactPixel.trackCustom("IconFacebookLink", "IconFacebook", {
+      value: "IconFacebook",
+    });
+  };
+  const iconInstagram = () => {
+    ReactPixel.trackCustom("IconInstagramLink", "IconInstagram", {
+      value: "IconInstagram",
+    });
+  };
+
   return (
     <>
       <section className={styles.conatinerSection}>
@@ -22,7 +34,7 @@ const SectionOne = () => {
                 rel="noreferer"
                 className={styles.linkMenu}
               >
-                <i className="fa-brands fa-square-facebook fa-2xl"></i>
+                <i className="fa-brands fa-square-facebook fa-2xl" onClick={iconFacebook}></i>
               </Link>
               <Link
                 to="https://www.instagram.com/estilo.mbr/"
@@ -30,7 +42,7 @@ const SectionOne = () => {
                 rel="noreferer"
                 className={styles.linkMenu}
               >
-                <i className="fa-brands fa-instagram fa-2xl"></i>
+                <i className="fa-brands fa-instagram fa-2xl" onClick={iconInstagram}></i>
               </Link>
             </div>
           </div>
