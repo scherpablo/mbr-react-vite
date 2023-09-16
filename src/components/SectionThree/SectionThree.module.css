@@ -9,7 +9,6 @@
 .divSection {
   background-color: var(--backgroundGrey);
   display: flex;
-  /* min-height: 560px; */
   min-height: 650px;
   height: auto;
   overflow: hidden;
@@ -18,7 +17,7 @@
   width: 50%;
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/img/sectionThree/img-sectionThree-min.png");
+    url("/img/sectionThree/img-sectionThree-min.webp");
   background-size: cover;
   background-repeat: no-repeat;
   order: 2;
@@ -74,14 +73,10 @@
   .divSection {
     flex-direction: column;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("/img/sectionThree/img2-sectionThree-min.png");
+      url("/img/sectionThree/img2-sectionThree-min.webp");
     background-size: cover;
     background-repeat: no-repeat;
   }
-  /* .divImgSection img {
-    display: block;
-    margin-left: -200px;
-  } */
   .divTextSection {
     margin: 90px auto 0 auto;
   }

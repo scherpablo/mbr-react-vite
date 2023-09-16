@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/img/header/img-background-min.png");
+    url("/img/header/img-background-min.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

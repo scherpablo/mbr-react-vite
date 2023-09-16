@@ -23,7 +23,7 @@ const Footer = () => {
     <>
       <footer className={styles.containerFooter}>
         <div className={styles.divTopFooter}>
-          <img src="img/header/logo-new.png" alt="" />
+          <img src="img/navBar/logo-new.webp" alt="" />
           <div className={styles.divMenuFooter}>
             <a href="#home">
               <p>Inicio</p>
