@@ -1,7 +1,14 @@
+import ReactPixel from "react-facebook-pixel";
 import { Link } from "react-router-dom";
 import styles from "./SectionTwo.module.css";
 
 const SectionTwo = () => {
+  const knowThem = () => {
+    ReactPixel.trackCustom("AccesoriesButton", "Conocelos", {
+      value: "Conocelos",
+    });
+  };
+
   return (
     <>
       <section className={styles.containerSection}>
@@ -35,7 +42,7 @@ const SectionTwo = () => {
               target="_blank"
               rel="noreferer"
             >
-              <button>Conocelos</button>
+              <button onClick={knowThem}>Conocelos</button>
             </Link>
           </div>
         </div>
