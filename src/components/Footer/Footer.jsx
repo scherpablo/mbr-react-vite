@@ -58,21 +58,23 @@ const Footer = () => {
           <span>{String.fromCharCode(169)} 2023 | Estilo MBR</span>
           <div className={styles.iconsFooter}>
             <Link
-              to="https://www.instagram.com/estilo.mbr/"
-              target="_blank"
-              rel="noreferer"
-            >
-              <i className="fa-brands fa-square-facebook fa-lg" onClick={iconFacebook}></i>
-            </Link>
-            <Link
               to="https://www.facebook.com/profile.php?id=100048890242534"
               target="_blank"
               rel="noreferer"
+              alt="icon-facebook"
             >
-              <i className="fa-brands fa-instagram fa-lg" onClick={iconInstagram}></i>
+              <i className="fa-brands fa-square-facebook fa-lg" onClick={iconFacebook} alt="icon-facebook"></i>
             </Link>
-            <Link to="https://whatsapp.com/" target="_blank" rel="noreferer">
-              <i className="fa-brands fa-whatsapp fa-lg" onClick={iconWhatsapp}></i>
+            <Link
+              to="https://www.instagram.com/estilo.mbr/"
+              target="_blank"
+              rel="noreferer"
+              alt="icon-instagram"
+            >
+              <i className="fa-brands fa-instagram fa-lg" onClick={iconInstagram} alt="icon-instagram"></i>
+            </Link>
+            <Link to="https://whatsapp.com/" target="_blank" rel="noreferer" alt="icon-whatsapp">
+              <i className="fa-brands fa-whatsapp fa-lg" onClick={iconWhatsapp} alt="icon-whatsapp"></i>
             </Link>
           </div>
         </div>

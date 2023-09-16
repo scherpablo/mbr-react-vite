@@ -33,16 +33,18 @@ const SectionOne = () => {
                 target="_blank"
                 rel="noreferer"
                 className={styles.linkMenu}
+                alt="icon-facebook"
               >
-                <i className="fa-brands fa-square-facebook fa-2xl" onClick={iconFacebook}></i>
+                <i className="fa-brands fa-square-facebook fa-2xl" onClick={iconFacebook} alt="icon-facebook"></i>
               </Link>
               <Link
                 to="https://www.instagram.com/estilo.mbr/"
                 target="_blank"
                 rel="noreferer"
                 className={styles.linkMenu}
+                alt="icon-instagram"
               >
-                <i className="fa-brands fa-instagram fa-2xl" onClick={iconInstagram}></i>
+                <i className="fa-brands fa-instagram fa-2xl" onClick={iconInstagram} alt="icon-instagram"></i>
               </Link>
             </div>
           </div>
