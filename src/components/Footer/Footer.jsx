@@ -33,6 +33,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferer"
               className={styles.linkMenu}
+              name="accesorios-link"
             >
               <p>Accesorios</p>
             </Link>
@@ -41,6 +42,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferer"
               className={styles.linkMenu}
+              name="borcegos-link"
             >
               <p>Borcegos</p>
             </Link>
@@ -49,6 +51,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferer"
               className={styles.linkMenu}
+              name="tienda-online-link"
             >
               <p>Tienda Online</p>
             </Link>
@@ -62,6 +65,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferer"
               alt="icon-facebook"
+              name="facebook-link"
             >
               <i className="fa-brands fa-square-facebook fa-lg" onClick={iconFacebook} alt="icon-facebook"></i>
             </Link>
@@ -70,10 +74,11 @@ const Footer = () => {
               target="_blank"
               rel="noreferer"
               alt="icon-instagram"
+              name="instagram-link"
             >
               <i className="fa-brands fa-instagram fa-lg" onClick={iconInstagram} alt="icon-instagram"></i>
             </Link>
-            <Link to="https://whatsapp.com/" target="_blank" rel="noreferer" alt="icon-whatsapp">
+            <Link to="https://whatsapp.com/" target="_blank" rel="noreferer" alt="icon-whatsapp" name="whatsapp-link">
               <i className="fa-brands fa-whatsapp fa-lg" onClick={iconWhatsapp} alt="icon-whatsapp"></i>
             </Link>
           </div>

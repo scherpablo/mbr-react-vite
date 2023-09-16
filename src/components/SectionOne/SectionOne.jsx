@@ -34,6 +34,7 @@ const SectionOne = () => {
                 rel="noreferer"
                 className={styles.linkMenu}
                 alt="icon-facebook"
+                name="facebook-link"
               >
                 <i className="fa-brands fa-square-facebook fa-2xl" onClick={iconFacebook} alt="icon-facebook"></i>
               </Link>
@@ -43,6 +44,7 @@ const SectionOne = () => {
                 rel="noreferer"
                 className={styles.linkMenu}
                 alt="icon-instagram"
+                name="instagram-link"
               >
                 <i className="fa-brands fa-instagram fa-2xl" onClick={iconInstagram} alt="icon-instagram"></i>
               </Link>
