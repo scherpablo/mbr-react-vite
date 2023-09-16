@@ -1,7 +1,24 @@
+import ReactPixel from "react-facebook-pixel";
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
+  const iconFacebook = () => {
+    ReactPixel.trackCustom("IconFacebookLink3", "IconFacebook3", {
+      value: "IconFacebook3",
+    });
+  };
+  const iconInstagram = () => {
+    ReactPixel.trackCustom("IconInstagramLink3", "IconInstagram3", {
+      value: "IconInstagram3",
+    });
+  };
+  const iconWhatsapp  = () => {
+    ReactPixel.trackCustom("iconWhatsappLink", "iconWhatsapp", {
+      value: "iconWhatsapp",
+    });
+  };
+
   return (
     <>
       <footer className={styles.containerFooter}>
@@ -45,17 +62,17 @@ const Footer = () => {
               target="_blank"
               rel="noreferer"
             >
-              <i className="fa-brands fa-square-facebook fa-lg"></i>
+              <i className="fa-brands fa-square-facebook fa-lg" onClick={iconFacebook}></i>
             </Link>
             <Link
               to="https://www.facebook.com/profile.php?id=100048890242534"
               target="_blank"
               rel="noreferer"
             >
-              <i className="fa-brands fa-instagram fa-lg"></i>
+              <i className="fa-brands fa-instagram fa-lg" onClick={iconInstagram}></i>
             </Link>
             <Link to="https://whatsapp.com/" target="_blank" rel="noreferer">
-              <i className="fa-brands fa-whatsapp fa-lg"></i>
+              <i className="fa-brands fa-whatsapp fa-lg" onClick={iconWhatsapp}></i>
             </Link>
           </div>
         </div>
