@@ -24,10 +24,7 @@ const Header = () => {
             target="_blank"
             rel="noreferer"
           >
-            <button
-              className={styles.buttonHeader}
-              onClick={explorer}
-            >
+            <button className={styles.buttonHeader} onClick={explorer}>
               Explorar
             </button>
           </Link>
