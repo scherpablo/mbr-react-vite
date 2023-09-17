@@ -19,19 +19,19 @@ const SectionThree = () => {
           <div className={styles.divTextSection}>
             <h2>Borcegos</h2>
             <p>
-              🔘Completa tu Look: Los detalles marcan la diferencia. Nuestra
+              <span>Completa tu Look:</span> Los detalles marcan la diferencia. Nuestra
               gama de accesorios complementará tus borcegos y tu estilo
               personal, añadiendo un toque de distinción a cada atuendo.
-              <br></br>
-              🔘Estilo en Cada Detalle: Desde cinturones hasta bufandas y
+              <br></br><br></br>
+              <span>Estilo en Cada Detalle:</span> Desde cinturones hasta bufandas y
               gorros, nuestros accesorios están diseñados pensando en la moda y
               la funcionalidad. Cada pieza es una declaración de estilo por sí
-              misma.<br></br>
-              🔘Regalos Perfectos: Ya sea para ti mismo o para alguien especial,
+              misma.<br></br><br></br>
+              <span>Regalos Perfectos:</span> Ya sea para ti mismo o para alguien especial,
               nuestros accesorios son regalos ideales que expresan buen gusto y
               atención al detalle. Sorprende a tus seres queridos con un toque
-              de elegancia.<br></br>
-              🔘Personaliza tu Estilo: Los accesorios son la clave para
+              de elegancia.<br></br><br></br>
+              <span>Personaliza tu Estilo:</span> Los accesorios son la clave para
               personalizar tu estilo. Experimenta con diferentes combinaciones y
               encuentra el equilibrio perfecto entre moda y comodidad con Estilo
               MBR.

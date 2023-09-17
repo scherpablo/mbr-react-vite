@@ -46,6 +46,9 @@
   padding: 0 100px;
   text-align: justify;
 }
+.divTextSection p span{
+  font-weight: 600;
+}
 .divTextSection button {
   margin-top: 25px;
   font-size: 20px;
@@ -78,7 +81,7 @@
   }
   .divTextSection {
     width: 80%;
-    margin: 90px auto 0 auto;
+    margin: 40px auto 0 auto;
   }
   .divTextSection h2 {
     font-size: 30px;
@@ -95,5 +98,8 @@
 @media (max-width: 480px) {
     .divSection {
       padding-bottom: 100px;
+    }
+    .divTextSection {
+      margin: 90px auto 0 auto;
     }
 }
