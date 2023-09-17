@@ -19,23 +19,25 @@ const SectionTwo = () => {
           <div className={styles.divTextSection}>
             <h2>Accesorios</h2>
             <p>
-              <span>Descubre la Elegancia y la Durabilidad:</span> En Estilo MBR, nuestros
-              borcegos son una combinación perfecta de estilo y resistencia.
-              Diseñados para resistir cualquier terreno mientras mantienen tu
-              estilo intacto.<br></br><br></br> 
-              <span>Pisa con Confianza:</span> Nuestra colección de borcegos
-              te brinda la confianza que necesitas para enfrentar cualquier
-              desafío. Ya sea en la ciudad o en la naturaleza, nuestros borcegos
-              te llevarán allí con comodidad y estilo.<br></br><br></br>  
-              <span>Descubre la Elegancia y la Durabilidad:</span> ¿Buscas
-              un toque de sofisticación en tu vestuario diario? Nuestros
-              borcegos no solo son funcionales, sino que también añaden un toque
-              de elegancia a tu estilo único. Descubre cómo puedes destacar con
-              Estilo MBR.<br></br><br></br>  
-              <span>Hechos para Durar:</span> No comprometemos la calidad. Cada
-              par de borcegos Estilo MBR está construido con los mejores
-              materiales para asegurar que te acompañen durante años. Invierte
-              en calidad, invierte en Estilo MBR.
+              <span>Completa tu Look:</span> Los detalles marcan la diferencia.
+              Nuestra gama de accesorios complementará tus borcegos y tu estilo
+              personal, añadiendo un toque de distinción a cada atuendo.
+              <br></br>
+              <br></br>
+              <span>Estilo en Cada Detalle:</span> Desde cinturones hasta
+              bufandas y gorros, nuestros accesorios están diseñados pensando en
+              la moda y la funcionalidad. Cada pieza es una declaración de
+              estilo por sí misma.<br></br>
+              <br></br>
+              <span>Regalos Perfectos:</span> Ya sea para ti mismo o para
+              alguien especial, nuestros accesorios son regalos ideales que
+              expresan buen gusto y atención al detalle. Sorprende a tus seres
+              queridos con un toque de elegancia.<br></br>
+              <br></br>
+              <span>Personaliza tu Estilo:</span> Los accesorios son la clave
+              para personalizar tu estilo. Experimenta con diferentes
+              combinaciones y encuentra el equilibrio perfecto entre moda y
+              comodidad con Estilo MBR.
             </p>
             <Link
               to="https://tienda.estilombr.com.ar/accesorios/"
