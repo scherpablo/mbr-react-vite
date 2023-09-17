@@ -25,7 +25,7 @@ const SectionTwo = () => {
               <br></br>
               <br></br>
               <span>Estilo en Cada Detalle:</span> Desde cinturones hasta
-              bufandas y gorros, nuestros accesorios están diseñados pensando en
+              fajas, nuestros accesorios están diseñados pensando en
               la moda y la funcionalidad. Cada pieza es una declaración de
               estilo por sí misma.<br></br>
               <br></br>
