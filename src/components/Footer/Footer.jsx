@@ -4,7 +4,7 @@ import styles from "./Footer.module.css";
 
 const facebook = "https://www.facebook.com/profile.php?id=100048890242534"
 const instagram = "https://www.instagram.com/estilo.mbr/"
-const whatsappURL = "https://wa.me/+5491168400611?text=Hola+te+comunicaste+con+Estilo+MBR.+Deja+tu+consulta+y+te+responderemos+a+la+brevedad.+¡Muchas+gracias!%0ANo+dejes+de+visitar+nuestra+tienda+en:+https://tienda.estilombr.com.ar/";
+const whatsappURL = "https://wa.me/+5491168400611?text=Hola+me+estoy+comunicando+a+travez+del+enlace+de+whatsapp+de+su+página+web.%0AEstoy+interesado/a+por+el+siguiente+producto...";
 
 
 const Footer = () => {
