@@ -26,6 +26,7 @@
   text-transform: uppercase;
   font-size: 29px;
   color: var(--whiteText);
+  margin-bottom: 15px;
 }
 .divBottomHeader p {
   font-family: var(--fontParagraph);

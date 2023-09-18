@@ -22,7 +22,7 @@ const SectionOne = () => {
             <h2>Siempre es un buen</h2>
             <h2 className={styles.h2Two}>momento para usar</h2>
             <h2 className={styles.h2Three}>
-              tus borcegos <span>MBR.</span>
+              <span>MBR.</span>
             </h2>
           </div>
           <div className={styles.divSocialNet}>
