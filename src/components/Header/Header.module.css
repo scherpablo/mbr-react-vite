@@ -21,10 +21,10 @@
   margin-top: 520px;
 }
 .divBottomHeader h3 {
-  font-family: var(--fontExtra);
-  font-family: var(--fontSections);
+  font-family: var(--fontImpact);
+  letter-spacing: 3px;
   text-transform: uppercase;
-  font-size: 26px;
+  font-size: 29px;
   color: var(--whiteText);
 }
 .divBottomHeader p {
