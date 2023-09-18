@@ -19,7 +19,7 @@ const SectionOne = () => {
       <section className={styles.conatinerSection}>
         <div className={styles.divSection}>
           <div className={styles.divText}>
-            <h2>Siempre es un buen</h2>
+            <h2>Siempre es buen</h2>
             <h2 className={styles.h2Two}>momento para usar</h2>
             <h2 className={styles.h2Three}>
               <span>MBR.</span>
