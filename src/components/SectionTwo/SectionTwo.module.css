@@ -34,7 +34,8 @@
 .divTextSection h2 {
   font-size: 40px;
   font-family: var(--fontExtra);
-  font-family: var(--fontSections);
+  font-family: var(--fontImpact);
+  letter-spacing: 3px;
   color: var(--whiteText);
   text-transform: uppercase;
   margin-bottom: 10px;

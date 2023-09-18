@@ -17,8 +17,9 @@
 }
 .divText {
   font-size: 50px;
-  font-family: var(--fontTitles);
-  font-family: var(--fontSections);
+  font-family: var(--fontImpact);
+  letter-spacing: 3px;
+  line-height: 120px;
 }
 .divText h2 {
   color: var(--yellowText);
@@ -69,6 +70,7 @@
   }
   .divText {
     font-size: 30px;
+    line-height: 60px;
   }
   .h2Two, .h2Three {
     margin-left: 0;
