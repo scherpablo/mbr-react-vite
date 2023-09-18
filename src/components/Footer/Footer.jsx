@@ -78,6 +78,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
+          <p className={styles.mail}>contaco@estilombr.com.ar</p>
       </footer>
     </>
   );
