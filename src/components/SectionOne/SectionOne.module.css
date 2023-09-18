@@ -21,10 +21,6 @@
   letter-spacing: 3px;
   line-height: 120px;
 }
-/* .divText {
-  font-size: 50px;
-  font-family: var(--fontTitles);
-} */
 .divText h2 {
   color: var(--yellowText);
 }

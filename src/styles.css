@@ -25,7 +25,6 @@
 html {
   scroll-behavior: smooth;
   min-width: 400px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body {
   background-color: rgba(0, 0, 0, 0.5);
