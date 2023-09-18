@@ -8,12 +8,10 @@ import { Analitycs } from "@vercel/analytics";
 inject();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <>
     <BrowserRouter>
       <App />
+      <Analitycs />
     </BrowserRouter>
-    <Analitycs />
-  </>
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>,
