@@ -4,7 +4,7 @@ import styles from "./Footer.module.css";
 
 const facebook = "https://www.facebook.com/profile.php?id=100048890242534"
 const instagram = "https://www.instagram.com/estilo.mbr/"
-const whatsappURL = "https://wa.me/+5491168400611?text=Hola+me+estoy+comunicando+a+travez+del+enlace+de+whatsapp+de+su+página+web.%0AEstoy+interesado/a+por+el+siguiente+producto...";
+// const whatsappURL = "https://wa.me/+5491168400611?text=Hola+me+estoy+comunicando+a+travez+del+enlace+de+whatsapp+de+su+página+web.%0AEstoy+interesado/a+por+el+siguiente+producto...";
 
 
 const Footer = () => {
@@ -18,11 +18,11 @@ const Footer = () => {
       value: "IconInstagram3",
     });
   };
-  const iconWhatsapp  = () => {
-    ReactPixel.trackCustom("iconWhatsappLink", "iconWhatsapp", {
-      value: "iconWhatsapp",
-    });
-  };
+  // const iconWhatsapp  = () => {
+  //   ReactPixel.trackCustom("iconWhatsappLink", "iconWhatsapp", {
+  //     value: "iconWhatsapp",
+  //   });
+  // };
 
   return (
     <>
@@ -83,9 +83,9 @@ const Footer = () => {
             >
               <i className="fa-brands fa-instagram fa-lg" onClick={iconInstagram} alt="icon-instagram"></i>
             </Link>
-            <Link to={whatsappURL} target="_blank" rel="noreferer" alt="icon-whatsapp" name="whatsapp-link">
+            {/* <Link to={whatsappURL} target="_blank" rel="noreferer" alt="icon-whatsapp" name="whatsapp-link">
               <i className="fa-brands fa-whatsapp fa-lg" onClick={iconWhatsapp} alt="icon-whatsapp"></i>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </footer>
