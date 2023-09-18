@@ -28,7 +28,7 @@ const Footer = () => {
     <>
       <footer className={styles.containerFooter}>
         <div className={styles.divTopFooter}>
-          <img src="img/navBar/logo-new.webp" alt="logo-footer" width="200" height="80" />
+          <img src="img/navBar/logo-mbr-svg.svg" alt="logo-footer" width="200" height="80" />
           <div className={styles.divMenuFooter}>
             <a href="#home">
               <p>Inicio</p>

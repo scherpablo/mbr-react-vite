@@ -40,7 +40,7 @@ const NavBar = () => {
       >
         <div className={styles.divContainer}>
           <div className={styles.divLogo}>
-            <img src="img/navBar/logo-new.webp" alt="logo-navBar" width="200" height="80"/>
+            <img src="img/navBar/logo-mbr-svg.svg" alt="logo-navBar" width="200" height="80"/>
           </div>
           <Buttons />
         </div>
