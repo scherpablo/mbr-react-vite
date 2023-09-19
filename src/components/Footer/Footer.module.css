@@ -38,9 +38,11 @@
 }
 .divBottomFooter {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
   padding: 30px;
-  gap: 50px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 .divBottomFooter span {
@@ -49,8 +51,16 @@
   font-weight: 600;
   color: var(--whiteText);
 }
+.linkFacilitadora {
+  text-decoration: none;
+  color: var(--whiteText);
+}
+.linkFacilitadora:hover {
+  color: var(--yellowText);
+}
 .iconsFooter {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   font-size: 20px;

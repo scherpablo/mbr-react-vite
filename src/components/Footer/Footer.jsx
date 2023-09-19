@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.divBottomFooter}>
-          <span>{String.fromCharCode(169)} 2023 | Estilo MBR</span>
+          {/* <span>{String.fromCharCode(169)} 2023 Estilo MBR | Desarrollado por <Link to="https://facilitadora.com.ar/" target="_blank" rel="noreferer" className={styles.linkFacilitadora}>Facilitadora</Link></span> */}
           <div className={styles.iconsFooter}>
             <Link
               to={facebook}
@@ -77,8 +77,10 @@ const Footer = () => {
               <i className="fa-brands fa-instagram fa-lg" onClick={iconInstagram} alt="icon-instagram"></i>
             </Link>
           </div>
-        </div>
           <p className={styles.mail}>contaco@estilombr.com.ar</p>
+          <span>{String.fromCharCode(169)} 2023 Estilo MBR | Desarrollado por <Link to="https://facilitadora.com.ar/" target="_blank" rel="noreferer" className={styles.linkFacilitadora}>Facilitadora</Link></span>
+        </div>
+          {/* <p className={styles.mail}>contaco@estilombr.com.ar</p> */}
       </footer>
     </>
   );
