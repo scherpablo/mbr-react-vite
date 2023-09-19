@@ -5,8 +5,9 @@ import styles from "./Buttons.module.css";
 const Buttons = () => {
   
   const store = () => {
-    ReactPixel.trackCustom("NavButtonStore", "Tienda", {
+    ReactPixel.trackCustom("NavButtonStore", {
       value: "Tienda",
+      location: "NavBar",
     })
   };
   const facebook = () => {
