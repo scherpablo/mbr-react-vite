@@ -4,13 +4,13 @@ import styles from "./SectionOne.module.css";
 
 const SectionOne = () => {
   const iconFacebook = () => {
-    ReactPixel.trackCustom("Facebook Icon", {
+    ReactPixel.trackCustom("Facebook Icon One", {
       location: "One Section",
       value: "Facebook Icon",
     });
   };
   const iconInstagram = () => {
-    ReactPixel.trackCustom("Instagram Icon", {
+    ReactPixel.trackCustom("Instagram Icon One", {
       location: "One Section",
       value: "Instagram Icon",
     });
