@@ -4,8 +4,8 @@ import styles from "./SectionTwo.module.css";
 
 const SectionTwo = () => {
   const knowThem = () => {
-    ReactPixel.trackCustom("Button Accesories", {
-      location: "Section Two",
+    ReactPixel.trackCustom("Accesories Button", {
+      location: "Sección Accesorios",
       value: "Conocelos",
     });
   };

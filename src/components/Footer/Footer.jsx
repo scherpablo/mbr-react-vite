@@ -7,13 +7,13 @@ const instagram = "https://www.instagram.com/estilo.mbr/"
 
 const Footer = () => {
   const iconFacebook = () => {
-    ReactPixel.trackCustom("Facebook Icon", {
+    ReactPixel.trackCustom("Facebook Icon Three", {
       location: "Footer",
       value: "Facebook Icon",
     });
   };
   const iconInstagram = () => {
-    ReactPixel.trackCustom("Instagram Icon", {
+    ReactPixel.trackCustom("Instagram Icon Three", {
       location: "Footer",
       value: "Instagram Icon",
     });
