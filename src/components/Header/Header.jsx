@@ -5,7 +5,7 @@ import styles from "./Header.module.css";
 
 const Header = () => {
   const explorer = () => {
-    ReactPixel.trackCustom("Button Explorer", {
+    ReactPixel.trackCustom("Button Explorer", "Botón Explorar", {
       location: "Header",
       value: "Explorar",
     });
