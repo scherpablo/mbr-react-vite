@@ -4,7 +4,8 @@ import styles from "./SectionThree.module.css";
 
 const SectionThree = () => {
   const explorers = () => {
-    ReactPixel.trackCustom("HeaderButtonExplorer", "Exploralos", {
+    ReactPixel.trackCustom("Button Explore Them", {
+      location: "Section Three",
       value: "Exploralos",
     });
   };
