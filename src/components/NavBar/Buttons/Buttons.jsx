@@ -6,8 +6,8 @@ const Buttons = () => {
   
   const store = () => {
     ReactPixel.trackCustom("NavButtonStore", {
-      value: "Tienda",
       location: "NavBar",
+      value: "Tienda",
     })
   };
   const facebook = () => {
