@@ -1,14 +1,14 @@
-import ReactPixel from "react-facebook-pixel";
+// import ReactPixel from "react-facebook-pixel";
 import { Link } from "react-router-dom";
 import styles from "./SectionTwo.module.css";
 
 const SectionTwo = () => {
-  const knowThem = () => {
-    ReactPixel.trackCustom("Accesories Button", {
-      location: "Sección Accesorios",
-      value: "Conocelos",
-    });
-  };
+  // const knowThem = () => {
+  //   ReactPixel.trackCustom("Accesories Button", {
+  //     location: "Sección Accesorios",
+  //     value: "Conocelos",
+  //   });
+  // };
 
   return (
     <>
@@ -45,7 +45,7 @@ const SectionTwo = () => {
               target="_blank"
               rel="noreferer"
             >
-              <button onClick={knowThem}>Conocelos</button>
+              <button /*onClick={knowThem}*/>Conocelos</button>
             </Link>
           </div>
         </div>

@@ -1,27 +1,27 @@
-import ReactPixel from "react-facebook-pixel";
+// import ReactPixel from "react-facebook-pixel";
 import { Link } from "react-router-dom";
 import styles from "./Buttons.module.css";
 
 const Buttons = () => {
   
-  const store = () => {
-    ReactPixel.trackCustom("Button Store", {
-      location: "NavBar",
-      value: "Tienda",
-    })
-  };
-  const facebook = () => {
-    ReactPixel.trackCustom("Button Facebook", {
-      location: "NavBar",
-      value: "Facebook",
-    })
-  };
-  const instagram = () => {
-    ReactPixel.trackCustom("Button Instagram", {
-      location: "NavBar",
-      value: "Instagram",
-    });
-  }
+  // const store = () => {
+  //   ReactPixel.trackCustom("Button Store", {
+  //     location: "NavBar",
+  //     value: "Tienda",
+  //   })
+  // };
+  // const facebook = () => {
+  //   ReactPixel.trackCustom("Button Facebook", {
+  //     location: "NavBar",
+  //     value: "Facebook",
+  //   })
+  // };
+  // const instagram = () => {
+  //   ReactPixel.trackCustom("Button Instagram", {
+  //     location: "NavBar",
+  //     value: "Instagram",
+  //   });
+  // }
 
   return (
     <>
@@ -35,7 +35,7 @@ const Buttons = () => {
           >
             <button
               className={styles.buttonNavBar}
-              onClick={store}
+              /*onClick={store}*/
             >
               Tienda
             </button>
@@ -48,7 +48,7 @@ const Buttons = () => {
           >
             <button
               className={styles.buttonNavBar}
-              onClick={facebook}
+              /*onClick={facebook}*/
             >
               Facebook
             </button>
@@ -61,7 +61,7 @@ const Buttons = () => {
           >
             <button
               className={styles.buttonNavBar}
-              onClick={instagram}
+              /*onClick={instagram}*/
             >
               Instagram
             </button>

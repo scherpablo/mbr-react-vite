@@ -1,15 +1,15 @@
-import ReactPixel from "react-facebook-pixel";
+// import ReactPixel from "react-facebook-pixel";
 import { Link } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
 import styles from "./Header.module.css";
 
 const Header = () => {
-  const explorer = () => {
-    ReactPixel.trackCustom("Button Explorer", "Botón Explorar", {
-      location: "Header",
-      value: "Explorar",
-    });
-  };
+  // const explorer = () => {
+  //   ReactPixel.trackCustom("Button Explorer", "Botón Explorar", {
+  //     location: "Header",
+  //     value: "Explorar",
+  //   });
+  // };
 
   return (
     <>
@@ -25,7 +25,7 @@ const Header = () => {
             target="_blank"
             rel="noreferer"
           >
-            <button className={styles.buttonHeader} onClick={explorer}>
+            <button className={styles.buttonHeader} /*onClick={explorer}*/>
               Explorar
             </button>
           </Link>

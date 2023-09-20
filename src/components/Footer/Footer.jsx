@@ -1,4 +1,4 @@
-import ReactPixel from "react-facebook-pixel";
+// import ReactPixel from "react-facebook-pixel";
 import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 
@@ -6,18 +6,18 @@ const facebook = "https://www.facebook.com/profile.php?id=100048890242534"
 const instagram = "https://www.instagram.com/estilo.mbr/"
 
 const Footer = () => {
-  const iconFacebook = () => {
-    ReactPixel.trackCustom("Facebook Icon Three", {
-      location: "Footer",
-      value: "Facebook Icon",
-    });
-  };
-  const iconInstagram = () => {
-    ReactPixel.trackCustom("Instagram Icon Three", {
-      location: "Footer",
-      value: "Instagram Icon",
-    });
-  };
+  // const iconFacebook = () => {
+  //   ReactPixel.trackCustom("Facebook Icon Three", {
+  //     location: "Footer",
+  //     value: "Facebook Icon",
+  //   });
+  // };
+  // const iconInstagram = () => {
+  //   ReactPixel.trackCustom("Instagram Icon Three", {
+  //     location: "Footer",
+  //     value: "Instagram Icon",
+  //   });
+  // };
 
   return (
     <>
@@ -67,7 +67,7 @@ const Footer = () => {
               alt="icon-facebook"
               name="facebook-link"
             >
-              <i className="fa-brands fa-square-facebook fa-lg" onClick={iconFacebook} alt="icon-facebook"></i>
+              <i className="fa-brands fa-square-facebook fa-lg" /*onClick={iconFacebook}*/ alt="icon-facebook"></i>
             </Link>
             <Link
               to={instagram}
@@ -76,7 +76,7 @@ const Footer = () => {
               alt="icon-instagram"
               name="instagram-link"
             >
-              <i className="fa-brands fa-instagram fa-lg" onClick={iconInstagram} alt="icon-instagram"></i>
+              <i className="fa-brands fa-instagram fa-lg" /*onClick={iconInstagram}*/ alt="icon-instagram"></i>
             </Link>
           </div>
           <p className={styles.mail}>contaco@estilombr.com.ar</p>

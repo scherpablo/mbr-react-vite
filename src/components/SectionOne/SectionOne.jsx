@@ -1,20 +1,20 @@
-import ReactPixel from "react-facebook-pixel";
+// import ReactPixel from "react-facebook-pixel";
 import { Link } from "react-router-dom";
 import styles from "./SectionOne.module.css";
 
 const SectionOne = () => {
-  const iconFacebook = () => {
-    ReactPixel.trackCustom("Facebook Icon One", {
-      location: "One Section",
-      value: "Facebook Icon",
-    });
-  };
-  const iconInstagram = () => {
-    ReactPixel.trackCustom("Instagram Icon One", {
-      location: "One Section",
-      value: "Instagram Icon",
-    });
-  };
+  // const iconFacebook = () => {
+  //   ReactPixel.trackCustom("Facebook Icon One", {
+  //     location: "One Section",
+  //     value: "Facebook Icon",
+  //   });
+  // };
+  // const iconInstagram = () => {
+  //   ReactPixel.trackCustom("Instagram Icon One", {
+  //     location: "One Section",
+  //     value: "Instagram Icon",
+  //   });
+  // };
 
   return (
     <>
@@ -38,7 +38,7 @@ const SectionOne = () => {
                 alt="icon-facebook"
                 name="facebook-link"
               >
-                <i className="fa-brands fa-square-facebook fa-2xl" onClick={iconFacebook} alt="icon-facebook"></i>
+                <i className="fa-brands fa-square-facebook fa-2xl" /*onClick={iconFacebook}*/ alt="icon-facebook"></i>
               </Link>
               <Link
                 to="https://www.instagram.com/estilo.mbr/"
@@ -48,7 +48,7 @@ const SectionOne = () => {
                 alt="icon-instagram"
                 name="instagram-link"
               >
-                <i className="fa-brands fa-instagram fa-2xl" onClick={iconInstagram} alt="icon-instagram"></i>
+                <i className="fa-brands fa-instagram fa-2xl" /*onClick={iconInstagram}*/ alt="icon-instagram"></i>
               </Link>
             </div>
           </div>

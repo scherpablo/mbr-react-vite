@@ -1,14 +1,14 @@
-import ReactPixel from "react-facebook-pixel";
+// import ReactPixel from "react-facebook-pixel";
 import { Link } from "react-router-dom";
 import styles from "./SectionThree.module.css";
 
 const SectionThree = () => {
-  const explorers = () => {
-    ReactPixel.trackCustom("Boots Button", {
-      location: "Sección Borcegos",
-      value: "Exploralos",
-    });
-  };
+  // const explorers = () => {
+  //   ReactPixel.trackCustom("Boots Button", {
+  //     location: "Sección Borcegos",
+  //     value: "Exploralos",
+  //   });
+  // };
 
   return (
     <>
@@ -47,7 +47,7 @@ const SectionThree = () => {
               target="_blank"
               rel="noreferer"
             >
-              <button onClick={explorers}>Exploralos</button>
+              <button /*onClick={explorers}*/>Exploralos</button>
             </Link>
           </div>
         </div>
