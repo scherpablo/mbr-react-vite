@@ -122,18 +122,22 @@
             "priceCurrency": "ARS",
             "url": "https://tienda.estilombr.com.ar/productos/borcego-107/",
             "seller": {
-              "@type": "Organization",
+              "@type": "Online Store",
               "name": "Estilo MBR"
             },
-            "hasMerchantReturnPolicy": {
-              "@type": "MerchantReturnPolicy",
-              "refundType": "FullRefund",  // Tipo de reembolso
-              "returnPolicyCategory": "https://schema.org/RefundAndExchangePolicy"
-            },
-            "gtin13": "1234567890123",
             "brand": {
               "@type": "Brand",
               "name": "Estilo MBR"
+            },
+            "shippingDetails": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": "PT1H",
+              "transitTime": "P2D"    
+            }
+            "hasMerchantReturnPolicy": {
+              "@type": "MerchantReturnPolicy",
+              "refundType": "FullRefund",
+              "returnPolicyCategory": "https://schema.org/RefundAndExchangePolicy"
             }
           }
         }
